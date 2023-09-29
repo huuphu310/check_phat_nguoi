@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+*.venv
+.env
+
+# IDE directories
+.idea/
+.vscode/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other files and directories that you don't want to include in your Docker image
+secrets.yml
+backup/
+test.py
