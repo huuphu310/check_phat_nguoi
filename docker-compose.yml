@@ -3,5 +3,5 @@ services:
   web:
     image: huuphu310/check_phat_nguoi:latest
     environment:
-      - "TELEGRAM_TOKEN=6370473783:AAHm94GidNoukIEv8PwQfC7j54Qa5FZdKnU"
+      - "TELEGRAM_TOKEN="
       - "MONGO_SERVER=10.5.26.188"
